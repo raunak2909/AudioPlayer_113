@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="21dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="21dp"
+        android:src="@drawable/audio_thumbnail"/>
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="pause"
+            android:id="@+id/btnPause"
+            android:layout_margin="11dp"
+            app:tint="#fff"
+            android:src="@drawable/baseline_pause_24"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="play"
+            android:layout_margin="11dp"
+            android:id="@+id/btnPlay"
+            app:tint="#fff"
+            android:src="@drawable/baseline_play_arrow_24"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="stop"
+            android:layout_margin="11dp"
+            android:id="@+id/btnStop"
+            app:tint="#fff"
+            android:src="@drawable/baseline_stop_24"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="next"
+            android:id="@+id/btnNext"
+            android:layout_margin="11dp"
+            app:tint="#fff"
+            android:src="@drawable/baseline_pause_24"/>
+
+    </LinearLayout>
+
+</LinearLayout>
