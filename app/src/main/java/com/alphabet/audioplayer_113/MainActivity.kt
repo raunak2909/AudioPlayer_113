@@ -1,16 +1,13 @@
 package com.alphabet.audioplayer_113
 
-import android.media.AudioManager
 import android.media.MediaPlayer
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import android.util.Log
 import android.widget.SeekBar
 import com.alphabet.audioplayer_113.databinding.ActivityMainBinding
-import java.lang.Exception
 
 class MainActivity : AppCompatActivity() {
 
